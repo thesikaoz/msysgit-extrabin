@@ -1,4 +1,4 @@
-# msysgit-rsync
+# msysgit-extrabin
 
 install: cp * /bin
 
