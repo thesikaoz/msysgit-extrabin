@@ -1,4 +1,4 @@
 # msysgit-extrabin
 
-install: cp * /bin
+install: cp -r * /
 
