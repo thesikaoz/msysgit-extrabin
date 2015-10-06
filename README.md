@@ -1,14 +1,20 @@
-# msysgit-extrabin
+# Msysgit-extrabin
 
-For git version 2.6.0.windows.1 (x64). See the git tags for previous releases.
+Add the following tools to your 'msysgit' or 'git for windows' installation:
+ - rsync.exe
+ - wget.exe
+ - zip.exe
+ - flex.exe
+ - bison.exe
 
- - rsync
- - wget
- - zip
- - flex
- - bison
+# Installation
 
-# installation
+Run from a shell:
 
-cp -r * /
+```
+curl https://raw.githubusercontent.com/mojocorp/msysgit-extrabin/master/install.sh | bash
+```
+
+It basically copy the files matching your git version/architecture to "/".
+
 
