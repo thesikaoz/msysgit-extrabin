@@ -17,6 +17,6 @@ toolpath=/tmp/msysgit-extrabin/${git_version}/${arch}
 
 [ -d "${toolpath}" ] || die "unsupported git version"
 
-cp -r -n "${toolpath}"/. / || die "unable to copy the tools"
+cp -r -i "${toolpath}"/. / || die "unable to copy the tools"
 
 echo "Success"
