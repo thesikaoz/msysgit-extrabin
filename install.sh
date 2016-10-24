@@ -9,7 +9,7 @@ die() {
   exit 1
 }
 
-(cd /tmp && git clone --depth 1 --branch master https://github.com/mojocorp/msysgit-extrabin.git)
+(cd /tmp && git clone --depth 1 --branch master https://github.com/thesikaoz/msysgit-extrabin.git)
 
 git_version=$(git --version | cut -d' ' -f 3)
 arch=$(uname -m)
